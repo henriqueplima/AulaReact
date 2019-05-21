@@ -4,16 +4,18 @@ import { Switch, Route } from 'react-router-dom';
 import Search from './pages/Search';
 import Product from './pages/Product';
 
+const path = window.location.hostname !== 'localhost' ? '/AulaReact/' : '/';
+
 const Routes = () => (
     <Switch>
         <Route
             exact
-            path='/'
+            path={path}
             component={ Search }
         />
         <Route 
             exact
-            path='/produtos/:id'
+            path={'${path}produtos/:id'}
             component= { Product }
         />
         <Route
