@@ -54,11 +54,12 @@ class Product extends Component {
       const { data } = this.state;
 
       return (
-          <div>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
               <img src={ data.pictures[0].url}/>
-              <div> {data.title}</div>
-              <p>{data.description}</p>
-              
+              <div class="mdl-cell mdl-cell--1-col"> {data.title}</div>
+              <div class="mdl-cell mdl-cell--2-col"><p>{data.description}</p></div>
+            </div>  
           </div>
       )
   }
