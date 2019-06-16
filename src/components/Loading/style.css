@@ -1,6 +1,11 @@
-/* .loadingDiv {
+.loadingDiv {
     opacity: 0.3;
     background-color: black;
-    height: 100%;
-    width: 100%;
-} */
+    min-width: 100%;
+    min-height: 100%;
+    /* margin: 50%; */
+}
+
+.mdl-spinner {
+    margin: 50%
+}

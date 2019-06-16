@@ -1,0 +1,22 @@
+.thumbnail {
+    margin: 16px;
+    margin-left: 50%;
+    max-width: 100%;
+    min-width: 70%;
+}
+
+.mdl-textfield__input {
+    min-width: 100%;
+    /* height: 50px; */
+}
+
+.mdl-textfield {
+    min-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* height: 50px; */
+}
+
+.mdl-cell mdl-cell--9-col {
+    margin-left: 16px;
+}

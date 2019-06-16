@@ -2,7 +2,7 @@
   "name": "fiap-react-17mob",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://henriqueplima.github.io/AulaReact/",
+  "homepage": "https://henriqueplima.github.io/AulaReact/",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.6",

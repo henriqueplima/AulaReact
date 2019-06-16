@@ -15,7 +15,7 @@ const Routes = () => (
         />
         <Route 
             exact
-            path={'${path}produtos/:id'}
+            path={`${path}produtos/:id`}
             component= { Product }
         />
         <Route

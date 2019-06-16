@@ -1,0 +1,20 @@
+/* .demo-card {
+    min-width: 50%;
+    margin-left: 25%;
+}
+
+.mdl-grid {
+    min-width: 100%;
+} */
+
+.thumb {
+    max-width: 90%;
+    min-width: 50%;
+    margin: 10px;
+
+}
+
+.mdl-card__media {
+    width: 100%;
+    background-color: white;
+}
