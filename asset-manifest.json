@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AulaReact/static/css/main.8b2976e5.chunk.css",
+    "main.js": "/AulaReact/static/js/main.86f4833e.chunk.js",
+    "main.js.map": "/AulaReact/static/js/main.86f4833e.chunk.js.map",
+    "runtime~main.js": "/AulaReact/static/js/runtime~main.7261f266.js",
+    "runtime~main.js.map": "/AulaReact/static/js/runtime~main.7261f266.js.map",
+    "static/js/2.0d246edb.chunk.js": "/AulaReact/static/js/2.0d246edb.chunk.js",
+    "static/js/2.0d246edb.chunk.js.map": "/AulaReact/static/js/2.0d246edb.chunk.js.map",
+    "index.html": "/AulaReact/index.html",
+    "precache-manifest.892f512f4476ce4cd34dfee63c376a2b.js": "/AulaReact/precache-manifest.892f512f4476ce4cd34dfee63c376a2b.js",
+    "service-worker.js": "/AulaReact/service-worker.js",
+    "static/css/main.8b2976e5.chunk.css.map": "/AulaReact/static/css/main.8b2976e5.chunk.css.map"
+  }
+}
