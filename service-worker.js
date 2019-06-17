@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AulaReact/precache-manifest.892f512f4476ce4cd34dfee63c376a2b.js"
+  "/AulaReact/precache-manifest.1490e9859cceef8df573c76a45684536.js"
 );
 
 self.addEventListener('message', (event) => {
