@@ -15,27 +15,19 @@ class Search extends Component {
     }
 
     onSearch(event) {
-        //console.log(event.currentTarget.value);
         const value = event.currentTarget.value;
         axios.get(`https://api.mercadolibre.com/sites/MLB/search?q=${value}`)
             .then((item) => {
-                console.log(item.data.results);
                 this.setState({
                     results: item.data.results,
                 });
             })
     }
 
-    
-
-    formatValue(value) {
-        return 'R$ ' + value.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
-    }
-
     renderItem(item) {
         return (
             <div key={item.id} className="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell--12-col mdl-cell--12-col-tablet">
-                <Link to={`/produtos/${item.id}`}>           
+                <Link to={`produtos/${item.id}`}>           
                         <div className="mdl-cell mdl-cell--3-col mdl-cell--3-col-phone mdl-cell--3-col-tablet">
                             <img className="thumbnail" src={item.thumbnail}></img>
                         </div>

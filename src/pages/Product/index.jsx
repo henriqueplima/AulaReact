@@ -25,15 +25,6 @@ class Product extends Component {
     ])
         .then(([item, description]) => {
             
-            // console.log(item)
-            // this.isLoading = false;
-            // this.setState({
-            //     data: {
-            //         ...item.data,
-            //         description: description.data.plain_text,
-            //     }
-            // });
-
             axios.get(`https://api.mercadolibre.com/users/${item.data.seller_id}`)
             .then((seller) => {
                 console.log(seller)
@@ -114,7 +105,3 @@ class Product extends Component {
 }
   
 export default Product;
-
-
-
-// https://drive.google.com/open?id=1Hyicm4L13gSyWjqnnBZs3jxnaPByUIiN
